@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+
+body {
+  width: 80%;
+  margin: 0 auto;
+  background: linear-gradient(40deg, rgba(246,243,234) 50%, rgba(20,23,44) 100%);
+  background-attachment: fixed;
+}
+  
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 25px 0;
+
+}
+.navbar .links{
+    margin-left: 440px;
+}
+.navbar .logo{
+    width: 150px;
+}
+
+.navbar .logo img{
+  height: 150px;
+}
+.navbar .links ul{
+    list-style: none;
+    display: flex;
+}
+
+.navbar .links ul li{
+    margin-left: 50px;
+}
+
+.navbar .links ul li a{
+    text-decoration: none;
+    color: rgba(0, 0, 0,0.8);
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.navbar .links ul li a:hover{
+    color: #1a1e21;
+    font-weight: 700;
+    font-size: 30px;
+    transition: font-weight 0.25s , color 0.25s font-size 0.25s;
+}
+
+.container{
+     display: flex;
+     align-items: center;
+     width:100%; 
+}
+
+.container .left{
+    width: 50%;
+} 
+
+.container .left h1{
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.container .left h1 span{
+    font-weight: 600;
+    color: #242521;
+}
+
+.container .left p{
+    width: 85%;
+    font-size: 20px;
+    margin: 40px 0;
+    color: #0E1122;
+    align-items: justify;
+}
+
+.container .left button{
+    padding: 25px 30px;
+    font-size: 20px;
+    border: none;
+    border-radius: 20px;
+    background: #41423c;
+    margin-left: 120px;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.container .left button:hover{
+    background: #5d5f57;
+}
+
+.container .right{
+    width: 50%;
+}
+.container .right img{
+    width: 707px;
+    border-radius: 20px;
+
+}
